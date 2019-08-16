@@ -1,0 +1,17 @@
+<templateSet group="Android">
+  <template name="swi" value="switch ($CONTAINER$){&#10;     case $Key1$:&#10;     &#10;     break;&#10;     case $Key2$:&#10;     &#10;     break;&#10;    default:&#10;      $End$&#10;     break;&#10;}" description="Define Switch Style" toReformat="false" toShortenFQNames="true">
+    <variable name="CONTAINER" expression="suggestFirstVariableName()" defaultValue="" alwaysStopAt="true" />
+    <variable name="Key1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="Key2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="End" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="psh" value="/**&#10; * &#10; */&#10;private static class WeakHandler extends Handler{&#10;    private WeakReference&lt;$className$&gt; mActivityReference;&#10;    public WeakHandler($className$ activity){&#10;        mActivityReference = new WeakReference&lt;$className$&gt;(activity);&#10;    }&#10;    &#10;    @Override&#10;    public void handleMessage(Message msg){&#10;        $className$ activity = mActivityReference.get();&#10;        if(activity != null){&#10;            &#10;        }&#10;    }&#10;    &#10;    &#10;}" description="Define WeakHandler Style" toReformat="true" toShortenFQNames="true">
+    <variable name="className" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>
