@@ -27,6 +27,9 @@
       <emptyLine />
     </value>
   </option>
+  <AndroidXmlCodeStyleSettings>
+    <option name="ARRANGEMENT_SETTINGS_MIGRATED_TO_191" value="true" />
+  </AndroidXmlCodeStyleSettings>
   <DBN-PSQL>
     <case-options enabled="false">
       <option name="KEYWORD_CASE" value="lower" />
