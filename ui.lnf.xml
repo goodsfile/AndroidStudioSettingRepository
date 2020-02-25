@@ -1,11 +1,12 @@
 <application>
   <component name="UISettings">
+    <option name="DISABLE_MNEMONICS" value="true" />
     <option name="MAX_LOOKUP_LIST_HEIGHT" value="12" />
     <option name="MAX_LOOKUP_WIDTH2" value="1144" />
     <option name="OVERRIDE_NONIDEA_LAF_FONTS" value="true" />
+    <option name="SHOW_ICONS_IN_MENUS" value="false" />
     <option name="SHOW_MAIN_MENU" value="false" />
     <option name="SHOW_MAIN_TOOLBAR" value="true" />
     <option name="SHOW_MEMORY_INDICATOR" value="true" />
-    <option name="WIDESCREEN_SUPPORT" value="true" />
   </component>
 </application>
