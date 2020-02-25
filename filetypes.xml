@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping pattern="province_cn_new" type="JSON" />
+      <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="vue" type="PLAIN_TEXT" />
       <mapping ext="fnc" type="DBN-PSQL" />
       <mapping ext="pkb" type="DBN-PSQL" />
