@@ -5,6 +5,7 @@
       <mapping pattern="province_cn_new" type="JSON" />
       <mapping ext="main.kts" type="Kotlin" />
       <mapping ext="gradle.kts" type="Kotlin" />
+      <mapping pattern="README" type="PLAIN_TEXT" />
       <mapping ext="vue" type="PLAIN_TEXT" />
       <mapping ext="proerties" type="PLAIN_TEXT" />
     </extensionMap>
