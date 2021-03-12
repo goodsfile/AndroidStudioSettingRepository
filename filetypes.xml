@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping pattern="CustomGradlePlugin" type="Groovy" />
       <mapping ext="webp" type="Image" />
       <mapping pattern="province_cn_new" type="JSON" />
       <mapping ext="gradle.kts" type="Kotlin" />
