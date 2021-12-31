@@ -26,6 +26,10 @@
           <option name="url" value="http://git.yto.net.cn" />
           <option name="userName" value="01322104" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://gitee.com" />
+          <option name="userName" value="2570489361@qq.com" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="E:\" />
